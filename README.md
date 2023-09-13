@@ -87,12 +87,6 @@ https://roots.io/bedrock/docs/disable-plugins-based-on-environment/
 
 #### Start the server
 
-In the root of the project run the command below
-
-```
-php -S localhost:8000 -t web
-```
-
 The `localhost:8000` is the host of the server, ensure it is the same with the `WP_HOME` env variable
 
 ### VS code dev tip
