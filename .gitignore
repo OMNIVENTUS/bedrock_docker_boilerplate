@@ -1,0 +1,38 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/themes/twentytwentythree/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/cache/*
+web/app/debug.log
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+!.env.database.example
+
+# Composer
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
+
+# database data
+dbdata
+
+# init database
+init.sql
+
+# logs file
+web/app/logs/*

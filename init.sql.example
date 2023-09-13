@@ -1,0 +1,5 @@
+CREATE DATABASE IF NOT EXISTS omniventus_corpo;
+USE omniventus_corpo;
+CREATE USER IF NOT EXISTS 'omniventus'@'%' IDENTIFIED BY 'omniventus_password';
+GRANT ALL PRIVILEGES ON omniventus_corpo.* TO 'omniventus'@'%';
+FLUSH PRIVILEGES;
